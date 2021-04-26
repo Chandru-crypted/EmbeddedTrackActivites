@@ -4,9 +4,9 @@
 
 ## In Action
 
-|ON|OFF|
-|:--:|:--:|
-|![ON](simulation/ON.png)|![OFF](simulation/OFF.png)|
+|NoSwitchPressed|HeaterButtonPressed|SeatButtonPressed|BothSwitchPressed|
+|:-------------:|:-----------------:||:--------------:|:---------------:|
+|[![NoSwitchPressed](simulation/no_switch_pressed.png)]|[![HeaterButtonPressed](simulation/heater_button_pressed.png)]|[![SeatButtonPressed](simulation/seat_button_pressed.png)]|[![BothSwitchPressed](simulation/both_button.png)]|
 
 #### CI and Code Quality
 
