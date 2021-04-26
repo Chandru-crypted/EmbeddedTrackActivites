@@ -1,1 +1,1 @@
-# EmbeddedTrackActivites
+# EmbeddedTrackActivity
