@@ -1,4 +1,4 @@
-# Blinky Project In Action
+# Project to switch on a LED if both the buttons are pressed
 
 ## NoSwitchPressed
 
