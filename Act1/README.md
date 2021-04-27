@@ -14,7 +14,7 @@
 
 ![SeatButtonPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/seat_button_pressed.png)
 
-## BothSwitchPressed|
+## BothSwitchPressed
 
 ![BothSwitchPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/both_button.png)
 
