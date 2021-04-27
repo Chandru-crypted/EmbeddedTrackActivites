@@ -6,7 +6,7 @@
 
 |NoSwitchPressed|HeaterButtonPressed|SeatButtonPressed|BothSwitchPressed|
 |:-------------:|:-----------------:||:--------------:|:---------------:|
-|[![NoSwitchPressed](simulation/no_switch_pressed.png)]|[![HeaterButtonPressed](simulation/heater_button_pressed.png)]|[![SeatButtonPressed](simulation/seat_button_pressed.png)]|[![BothSwitchPressed](simulation/both_button.png)]|
+|[![NoSwitchPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/no_switch_pressed.png)]|[![HeaterButtonPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/heater_button_pressed.png)]|[![SeatButtonPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/seat_button_pressed.png)]|[![BothSwitchPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/both_button.png)]|
 
 #### CI and Code Quality
 
