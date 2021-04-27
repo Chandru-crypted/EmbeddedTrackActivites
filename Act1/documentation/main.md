@@ -1,1 +1,1 @@
-@mainpage Blinky Example by Bharath G @subpage project_main.c
+@mainpage Project to switch on a LED if both the buttons are pressed by Chandrasekaran G @subpage project_main.c
