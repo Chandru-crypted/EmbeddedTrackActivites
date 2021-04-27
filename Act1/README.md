@@ -1,12 +1,22 @@
 # Embedded C Programming Examples with Continuous Integration and Code Quality
 
-# LED Blinking 
+# Project to switch on a LED if both the buttons are pressed
 
-## In Action
+## NoSwitchPressed
 
-|NoSwitchPressed|HeaterButtonPressed|SeatButtonPressed|BothSwitchPressed|
-|:-------------:|:-----------------:||:--------------:|:---------------:|
-|[![NoSwitchPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/no_switch_pressed.png)]|[![HeaterButtonPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/heater_button_pressed.png)]|[![SeatButtonPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/seat_button_pressed.png)]|[![BothSwitchPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/both_button.png)]|
+[![NoSwitchPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/no_switch_pressed.png)]
+
+## HeaterButtonPressed
+
+[![HeaterButtonPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/heater_button_pressed.png)]
+
+## SeatButtonPressed
+
+[![SeatButtonPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/seat_button_pressed.png)]
+
+## BothSwitchPressed|
+
+[![BothSwitchPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/both_button.png)]
 
 #### CI and Code Quality
 
