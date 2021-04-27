@@ -35,7 +35,13 @@ int main(void)
     DDRB &= ~(1 << PB1); 
 	PORTB |= (1 << PB1);
 
-
+	/**
+	 * @brief If both the switches are pressed the LED glows
+	 * The switches are in a pull up configuration , that means when there is not input it is read as High
+	 * When the switch is pressed the port will change to Low
+	 * So to check if the switch is pressed we are negating the content in the port and checking whether both the switches are high
+	 * 
+	 */
     while(1){
         if ((!(PIND&(1 << PD5))) && (!(PINB & (1 << PB1)))){
             PORTD |= (1 << PD6);
