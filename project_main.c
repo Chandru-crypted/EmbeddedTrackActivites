@@ -15,6 +15,7 @@
 
 int main(void)
 {	
+	int temp; 
 	/**
 	 * @brief Setting up the LED port to be output
 	 * 
