@@ -1,4 +1,8 @@
-# Project to switch on a LED if both the buttons are pressed
+# Seat heater application 
+
+## Activity 1 in detail
+
+### To switch on a LED if both the buttons are pressed
 
 ## NoSwitchPressed
 
@@ -16,3 +20,4 @@
 
 ![BothSwitchPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/Act1/simulation/both_button.png)
 
+## Activity 1,Activity 2, Activity 3 and Activty 4 combined

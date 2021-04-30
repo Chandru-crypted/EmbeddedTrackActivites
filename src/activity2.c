@@ -16,14 +16,8 @@
 #include <avr/io.h>
 #include "activity2.h"
 
-/**
- * Private Function prototypes
- */
-uint16_t ReadAdc_channel_input(uint8_t);
 
-/**
- * Function Definitions
- */
+uint16_t ReadAdc_channel_input(uint8_t);
 
 /**
  * @brief Initialise the Analog to digital converter

@@ -1,1 +1,1 @@
-@mainpage Project to switch on a LED if both the buttons are pressed by Chandrasekaran @subpage project_main.c
+@mainpage Seat heater application by Chandrasekaran @subpage project_main.c

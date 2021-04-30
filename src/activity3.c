@@ -1,7 +1,7 @@
 /**
  * @file activity3.c
  * @author Channdrasekaran
- * @brief 
+ * @brief Activity 3 source file
  * @version 0.1
  * @date 2021-04-30
  * 

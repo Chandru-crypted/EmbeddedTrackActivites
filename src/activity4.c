@@ -1,7 +1,7 @@
 /**
  * @file activity4.c
  * @author Channdrasekaran
- * @brief 
+ * @brief Activity 4 source file
  * @version 0.1
  * @date 2021-04-30
  * 

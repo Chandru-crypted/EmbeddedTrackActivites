@@ -9,22 +9,11 @@
  * 
  */
 
-/**
- * @brief Include files
- * 
- */
 #include <avr/io.h>
 #include "activity1.h"
 
-/**
- * Private Function prototypes
- */
 uint8_t seat_button_state(void);
 uint8_t heater_button_state(void);
-
-/**
- * Function Definitions
- */
 
 /**
  * @brief Intialise seat button

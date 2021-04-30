@@ -1,4 +1,4 @@
-PROJ_NAME = Activity1
+PROJ_NAME = Seat_heater_application
 
 BUILD_DIR = Build
 
