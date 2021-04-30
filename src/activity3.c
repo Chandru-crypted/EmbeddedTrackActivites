@@ -52,16 +52,16 @@ void change_PWM_width(uint8_t width){
  * @param value 
  */
 void change_PWM_width_using_conditions(uint16_t value){
-	if ((value >= 0) && (value < 210)){
+	if (value <= 210){
 		change_PWM_width(width_20_per_cent);
 	}
-	else if ((value >= 210) && (value < 510)){
+	else if ((value <= 510)){
 		change_PWM_width(width_40_per_cent);
 	}
-	else if ((value >= 510) && (value < 710)){
+	else if ((value <= 710)){
 		change_PWM_width(width_70_per_cent);
 	}
-	else if ((value >= 710) && (value < 1024)){
+	else if (value < 1024){
 		change_PWM_width(width_95_per_cent);
 	}
 }
