@@ -11,47 +11,30 @@
 
 #include <avr/io.h>
 #include<util/delay.h>
-#include "project_config.h"
+#include "activity1.h"
+#include "activity2.h"
+#include "activity3.h"
 
-int main(void)
-{	
-	int temp; 
-	/**
-	 * @brief Setting up the LED port to be output
-	 * 
-	 */
-    DDRD |= (1 << PD6);
+uint16_t volatile ADC_value = 0;
 
-	/**
-	 * @brief Setting up the Heater button port 
-	 * 
-	 */
-    DDRD &= ~(1 << PD5); 
-    PORTD |= (1 << PD5); 
-
-	/**
-	 * @brief Setting up the seat button port
-	 * 
-	 */
-    DDRB &= ~(1 << PB1); 
-	PORTB |= (1 << PB1);
-
-	/**
-	 * @brief If both the switches are pressed the LED glows
-	 * The switches are in a pull up configuration , that means when there is not input it is read as High
-	 * When the switch is pressed the port will change to Low
-	 * So to check if the switch is pressed we are negating the content in the port and checking whether both the switches are high
-	 * 
-	 */
-    while(1){
-        if ((!(PIND&(1 << PD5))) && (!(PINB & (1 << PB1)))){
-            PORTD |= (1 << PD6);
-            _delay_ms(200);
-        }
-        else{
-            PORTD &= ~(1 << PD6);
-            _delay_ms(200);
-        }
-    }
+int main(void){
+	intialise_heater_button();
+	intialise_seat_button();
+	intialise_LED();
+	init_ADC();
+	init_PWM_gen_timer0();
+	while (1){
+		if(check_if_both_switch_are_pressed()){
+			change_led_state(LED_ON);
+			ReadAdc();
+			change_PWM_width_using_conditions(ADC_value);
+		}
+		else{
+			change_led_state(LED_OFF);
+			clear_ADC_value();
+			PWM_width = 50;
+		}
+		_delay_ms(500);
+	}
     return 0;
 }

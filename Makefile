@@ -3,12 +3,14 @@ PROJ_NAME = Activity1
 BUILD_DIR = Build
 
 # All Source code files
-SRC = project_main.c
-# src/user_utils.c
+SRC = project_main.c\
+src/activity1.c\
+src/activity2.c\
+src/activity3.c
 
 # All header file paths
 # INC = -I inc
-INC = -I inc/
+INC = -I inc
 
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
