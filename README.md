@@ -18,6 +18,28 @@
 
 ![BothSwitchPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/simulation/both_button.png)
 
+## Activity 1,Activity 2, Activity 3 and Activty 4 combined
+
+## BothSwitchNotPressed 
+
+![BothSwitchNotPressed](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/simulation/0.png)
+
+## 20Coutput
+
+![20Coutput](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/simulation/1.png)
+
+## 25Coutput
+
+![25Coutput](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/simulation/2.png)
+
+## 29Coutput
+
+![29Coutput](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/simulation/3.png)
+
+## 33Coutput
+
+![33Coutpuut](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/simulation/4.png)
+
 #### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
