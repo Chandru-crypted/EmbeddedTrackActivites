@@ -1,6 +1,8 @@
 {
 	"files.associations": {
 		"activity1.h": "c",
-		"activity2.h": "c"
+		"activity2.h": "c",
+		"activity4.h": "c",
+		"activity3.h": "c"
 	}
 }

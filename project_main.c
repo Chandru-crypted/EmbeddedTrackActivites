@@ -14,6 +14,7 @@
 #include "activity1.h"
 #include "activity2.h"
 #include "activity3.h"
+#include "activity4.h"
 
 uint16_t volatile ADC_value = 0;
 
@@ -23,18 +24,20 @@ int main(void){
 	intialise_LED();
 	init_ADC();
 	init_PWM_gen_timer0();
+	USARTInit(103);
 	while (1){
 		if(check_if_both_switch_are_pressed()){
 			change_led_state(LED_ON);
 			ReadAdc();
 			change_PWM_width_using_conditions(ADC_value);
+			_delay_ms(200);
+			USARTWriteChar_based_on_condition(ADC_value);
+			_delay_ms(200);
 		}
 		else{
 			change_led_state(LED_OFF);
 			clear_ADC_value();
-			PWM_width = 50;
 		}
-		_delay_ms(500);
 	}
     return 0;
 }
