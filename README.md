@@ -1,6 +1,10 @@
 # Embedded C Programming Examples with Continuous Integration and Code Quality
 
-# Project to switch on a LED if both the buttons are pressed
+# Seat heater application 
+
+## Activity 1 in detail
+
+### To switch on a LED if both the buttons are pressed
 
 ## NoSwitchPressed
 
