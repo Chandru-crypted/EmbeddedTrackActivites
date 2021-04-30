@@ -2,6 +2,12 @@
 
 # Seat heater application 
 
+## CI and Code Quality
+
+|Build|Cppcheck|Codacy|
+|:--:|:--:|:--:|
+|[![Compile-Linux](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/Build.yml/badge.svg)](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/Build.yml)|[![Cppcheck](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ac7d58972d294864b253af89670f63be)](https://www.codacy.com/gh/Chandru-crypted/EmbeddedTrackActivity/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Chandru-crypted/EmbeddedTrackActivity&amp;utm_campaign=Badge_Grade)|
+
 ## Activity 1 in detail
 
 ### To switch on a LED if both the buttons are pressed
@@ -44,9 +50,5 @@
 
 ![33Coutpuut](https://github.com/Chandru-crypted/EmbeddedTrackActivity/blob/main/simulation/4.png)
 
-#### CI and Code Quality
 
-|Build|Cppcheck|Codacy|
-|:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/Build.yml/badge.svg)](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/Build.yml)|[![Cppcheck](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ac7d58972d294864b253af89670f63be)](https://www.codacy.com/gh/Chandru-crypted/EmbeddedTrackActivity/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Chandru-crypted/EmbeddedTrackActivity&amp;utm_campaign=Badge_Grade)|
 
