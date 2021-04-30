@@ -22,7 +22,5 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/Build.yml/badge.svg)](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/Build.yml)|[![Cppcheck](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/643b7ca2b2dc4daba1e700c216bb87d9)](https://www.codacy.com/gh/Bharathgopal/Emb-C/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bharathgopal/Emb-C&amp;utm_campaign=Badge_Grade)|
+|[![Compile-Linux](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/Build.yml/badge.svg)](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/Build.yml)|[![Cppcheck](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Chandru-crypted/EmbeddedTrackActivity/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ac7d58972d294864b253af89670f63be)](https://www.codacy.com/gh/Chandru-crypted/EmbeddedTrackActivity/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Chandru-crypted/EmbeddedTrackActivity&amp;utm_campaign=Badge_Grade)|
 
-## Wiki Documentation
-* System [SETUP](https://github.com/Bharathgopal/Emb-C/wiki)
